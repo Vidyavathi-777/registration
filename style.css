@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+#form{
+    background-color: aliceblue;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(red,green,blue);
+    
+}
+h2{
+    margin: 10pxauto;
+    text-align: center;
+}
+.control-group{
+    margin-bottom: 10px;
+}
+input [type="text"]{
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 95%;
+    padding: 5px;
+}
